@@ -41,11 +41,11 @@ app.web3.accounts
  on voting twice
  ```
  Error: VM Exception while processing transaction: revert
-    at XMLHttpRequest._onHttpResponseEnd (C:\Users\harshit\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\xhr2\lib\xhr2.js:509:1)
-    at XMLHttpRequest._setReadyState (C:\Users\harshit\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\xhr2\lib\xhr2.js:354:1)
-    at XMLHttpRequestEventTarget.dispatchEvent (C:\Users\harshit\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\xhr2\lib\xhr2.js:64:1)
-    at XMLHttpRequest.request.onreadystatechange (C:\Users\harshit\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\web3\lib\web3\httpprovider.js:128:1)
-    at C:\Users\harshit\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\truffle-provider\wrapper.js:134:1
-    at C:\Users\harshit\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\web3\lib\web3\requestmanager.js:86:1
-    at Object.InvalidResponse (C:\Users\harshit\AppData\Roaming\npm\node_modules\truffle\build\webpack:\~\web3\lib\web3\errors.js:38:1)
+    at XMLHttpRequest._onHttpResponseEnd (C:\...\npm\node_modules\truffle\build\webpack:\~\xhr2\lib\xhr2.js:509:1)
+    at XMLHttpRequest._setReadyState (C:\...g\npm\node_modules\truffle\build\webpack:\~\xhr2\lib\xhr2.js:354:1)
+    at XMLHttpRequestEventTarget.dispatchEvent (C:\...Roaming\npm\node_modules\truffle\build\webpack:\~\xhr2\lib\xhr2.js:64:1)
+    at XMLHttpRequest.request.onreadystatechange (C:\..npm\node_modules\truffle\build\webpack:\~\web3\lib\web3\httpprovider.js:128:1)
+    at C:\...\npm\node_modules\truffle\build\webpack:\packages\truffle-provider\wrapper.js:134:1
+    at C:\...\npm\node_modules\truffle\build\webpack:\~\web3\lib\web3\requestmanager.js:86:1
+    at Object.InvalidResponse (C:\...\npm\node_modules\truffle\build\webpack:\~\web3\lib\web3\errors.js:38:1)
  ```   
