@@ -38,7 +38,7 @@ app.web3.accounts
   
  ```
  
- on voting twice
+ on voting twice or voting for invalid candidate
  ```
  Error: VM Exception while processing transaction: revert
     at XMLHttpRequest._onHttpResponseEnd (C:\...\npm\node_modules\truffle\build\webpack:\~\xhr2\lib\xhr2.js:509:1)
