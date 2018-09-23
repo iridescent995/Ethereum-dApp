@@ -1,2 +1,3 @@
 # Ethereum-dApp
-update later
+Using ethereum blockchain to develop a voting Dapp
+
