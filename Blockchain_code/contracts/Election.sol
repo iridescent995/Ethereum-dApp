@@ -9,6 +9,9 @@ contract Election{
 			uint votesCount;
 		}
 
+		//voters map
+		mapping (address => bool) public voters;
+		
 		//data of election in a map
 		mapping (uint => Candidate) public candidates;
 
@@ -26,10 +29,21 @@ contract Election{
 			candidates[candidatesCount]= Candidate(candidatesCount, _name, 0);
 		}
 
-		function vote () (uint _candidateId) public {
+		function vote (uint _candidateId) public {
+
+			//first checking that voter has voted or not
+
+			require (!voters[msg.sender] );
+
+			//check valid candidate
+			require (_candidateId > 0 && candidatesCount >= _candidateId);
+			
+
+			//add voter to list
+			voters[msg.sender]=true;
 			//update vote count in struct
 			candidates[_candidateId].votesCount++;
-			
+
 			
 		}
 		
