@@ -25,5 +25,13 @@ contract Election{
 			candidatesCount ++;
 			candidates[candidatesCount]= Candidate(candidatesCount, _name, 0);
 		}
+
+		function vote () (uint _candidateId) public {
+			//update vote count in struct
+			candidates[_candidateId].votesCount++;
+			
+			
+		}
+		
 		
 }
