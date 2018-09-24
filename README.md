@@ -12,7 +12,7 @@ opening truffle cmdp from console
 ```
 truffle console
 ```
-running cc from console
+running cc from truffle console
 ```
 Election.deployed().then(function(i) {app =i; })
 ```
