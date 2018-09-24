@@ -18,6 +18,10 @@ contract Election{
 		//to track no. of candidates
 		uint public candidatesCount;
 
+		event votedEvent(
+			uint indexed _candidateId
+		);
+
 		function Election() public{
 			addCandidate("BJP");
 			addCandidate("INC");
@@ -43,6 +47,8 @@ contract Election{
 			voters[msg.sender]=true;
 			//update vote count in struct
 			candidates[_candidateId].votesCount++;
+
+			votedEvent(_candidateId);
 
 			
 		}
