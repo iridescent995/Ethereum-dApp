@@ -28,6 +28,8 @@ running server
 npm run dev
 ```
 
+On Voting: Transaction
+
 ```
 { tx: '0xe2ffc66a4edc7b6d705aab7728c697a466e666622eeaa19e5c12966189903b33',
   receipt:
